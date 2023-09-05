@@ -1,12 +1,12 @@
 # mint_web_gallery_template
 Template for mint site
 
-Install 
+# Install 
 
  cd mint_web_gallery_template
  npm install 
 
-Run 
+# Run 
 
  npm start
 
