@@ -89,7 +89,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>NFT Minting App</h1>
       {account ? (
         <div>
           <p>Connected Account: {account}</p>
@@ -123,6 +122,17 @@ function App() {
           <p>{totalSupply} NFTs out of 1000 NFTs</p>
         </div>
       )}
+
+
+
+
+{totalSupply !== null && (
+        <p className="amount_text">{totalSupply} out of 1000</p>
+      )}
+
+
+
+
     </div>
   );
 }
